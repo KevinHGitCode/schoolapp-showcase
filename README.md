@@ -5,6 +5,12 @@
 
 `Laravel 13` · `PHP 8.4` · `Inertia 2` · `React 19` · `TypeScript` · `Tailwind 4` · `Recharts` · `Pest`
 
+> **Problem:** Schools run grades, schedules, payments and family communication in separate tools, and a multi-school product cannot leak data between schools.  
+> **Solution:** A multi-tenant platform where each school manages academics, finances and family communication, with per-person permissions.  
+> **Stack:** Laravel 13, Inertia 2, React 19, TypeScript, Tailwind 4, Recharts, Pest.  
+> **Live demo:** None (private product; a walkthrough is available on request).  
+> **My role:** Main developer, with one occasional collaborator: data model and multi-tenant isolation, roles and permissions, parent portal and payments, schedule, report cards, and an AI-assisted workflow.
+
 ![Dashboard con el calendario del año escolar](screenshots/dashboard.png)
 
 *Capturas tomadas de una base de demostración con un colegio y nombres ficticios.*
