@@ -58,7 +58,7 @@ Una plataforma donde cada rol ve solo lo que le corresponde:
   quality gate (`lint + format + types + test`) antes de entregar.
 
 ## Números del repositorio
-48 modelos · 40 migraciones · 61 clases de prueba · 40 ADR · 161 commits (marzo–agosto de 2026).
+48 modelos · 40 migraciones · 61 clases de prueba · 43 decisiones de arquitectura documentadas (ADR). Desarrollado de marzo a agosto de 2026.
 
 ## Resultado
 Producto funcional de punta a punta en un colegio de demostración: flujo académico, portal del
@@ -67,9 +67,12 @@ producción**: el proyecto está en pausa desde agosto de 2026. Quedaron pendien
 filtros de los listados grandes, la nómina y el buscador global.
 
 ## Mi rol
-Diseño y desarrollo **full-stack**: 143 de los 161 commits son míos (el resto, de un colaborador).
-Modelo de datos y multitenancy, módulos académico y financiero, portal del acudiente, sistema de
-permisos, gráficas y la metodología de trabajo con IA.
+Desarrollador principal, con un colaborador puntual. Hice el modelo de datos y el **aislamiento
+multi-colegio**, el sistema de **roles y permisos** (incluido el superadministrador con 2FA), el
+**portal del acudiente** y el cobro de matrícula con **webhook de pagos firmado e idempotente**, el
+horario y el pensum, los boletines en PDF, la importación por lotes, las notificaciones y el sitio
+público, además de la metodología de trabajo con IA. El módulo **Cursos** (notas, tareas y asistencia
+por clase) y el calendario del dashboard los construyó mi colaborador.
 
 ---
 
